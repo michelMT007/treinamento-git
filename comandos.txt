@@ -1,0 +1,26 @@
+
+echo "# git-branch" >> README.md
+# criar git inicial no projeto
+git init
+git add README.md
+
+# salvar o projeto para poder subir para o hub
+git commit -m "first commit"
+#
+git branch -M main
+
+# Adiciona o repositorio
+git remote add origin https://github.com/michelMT007/git-branch.git
+
+#Sobre o projeto para o repositorio online
+git push -u origin main
+
+#adicionar local online o seu repositorio desejado.
+git remote add origin https://www.github.com/
+
+# troca o usuario, movimenta, sai do main ou master.
+# e muda para o novo-usuario-branch -  mais um branch 
+#Enquanto nao mudar para main ou master nao sobe a versao nova
+git checkout -b novo-usuario-branch
+
+
